@@ -10,6 +10,8 @@
 		41EC81E01AFBDB1A00DC91A8 /* iOSFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EC81DF1AFBDB1A00DC91A8 /* iOSFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41EC81E61AFBDB1A00DC91A8 /* iOSFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EC81DA1AFBDB1A00DC91A8 /* iOSFrameworkTest.framework */; };
 		41EC81ED1AFBDB1A00DC91A8 /* iOSFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EC81EC1AFBDB1A00DC91A8 /* iOSFrameworkTestTests.m */; };
+		41EC822A1AFBE08800DC91A8 /* Greetings.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EC82281AFBE08800DC91A8 /* Greetings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41EC822B1AFBE08800DC91A8 /* Greetings.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EC82291AFBE08800DC91A8 /* Greetings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		41EC81E51AFBDB1A00DC91A8 /* iOSFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EC81EB1AFBDB1A00DC91A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41EC81EC1AFBDB1A00DC91A8 /* iOSFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFrameworkTestTests.m; sourceTree = "<group>"; };
+		41EC82281AFBE08800DC91A8 /* Greetings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greetings.h; sourceTree = "<group>"; };
+		41EC82291AFBE08800DC91A8 /* Greetings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greetings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				41EC81DF1AFBDB1A00DC91A8 /* iOSFrameworkTest.h */,
 				41EC81DD1AFBDB1A00DC91A8 /* Supporting Files */,
+				41EC82281AFBE08800DC91A8 /* Greetings.h */,
+				41EC82291AFBE08800DC91A8 /* Greetings.m */,
 			);
 			path = iOSFrameworkTest;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41EC81E01AFBDB1A00DC91A8 /* iOSFrameworkTest.h in Headers */,
+				41EC822A1AFBE08800DC91A8 /* Greetings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EC822B1AFBE08800DC91A8 /* Greetings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +406,7 @@
 				41EC81F21AFBDB1A00DC91A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41EC81F31AFBDB1A00DC91A8 /* Build configuration list for PBXNativeTarget "iOSFrameworkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				41EC81F51AFBDB1A00DC91A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
